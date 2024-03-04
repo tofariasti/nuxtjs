@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Nuxtlink to="/">Voltar</Nuxtlink>
+        <NuxtLink to="/">Voltar</NuxtLink>
         <slot></slot>
         Rodapé Exibicao
     </div>
