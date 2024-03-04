@@ -1,4 +1,4 @@
-const logado = false;
+const logado = true;
 
 export default defineNuxtRouteMiddleware((to, from) => {
     console.log('auth middleware')
