@@ -1,7 +1,6 @@
 <template>
-    <div>
-        Página Inicial
-    </div>
+    <Header/>
+    Página Inicial
 </template>
 
 <script setup>
