@@ -1,6 +1,6 @@
 <template>
     <div>
-        Voce está acessando o video numero {{ $route.params.id }}
+        Voce está acessando o video numero {{ idParams }}
     </div>
     <VideoDetalhes/>
     <VideoControlePlay/>
@@ -9,7 +9,7 @@
 <script setup>
     definePageMeta({
         layout: 'exibicao',
-        middleware: ['videos']
+        middleware: ['video']
     })
 
     const route = useRoute();
