@@ -2,6 +2,7 @@
     <div>
         Voce está acessando o video numero {{ $route.params.id }}
     </div>
+    <VideoDetalhes/>
 </template>
 
 <script setup>
